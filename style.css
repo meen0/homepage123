@@ -1,0 +1,97 @@
+@charset "UTF-8";   /* 인코딩 문자 깨짐 방지 */
+
+ul{
+    list-style: none;
+}
+#productlist{
+    width: 1300px;
+    margin: 0 auto;
+    text-align: center;
+}
+#header {
+    display: flex;
+    column-gap: 30px;
+    font-size: 30px;
+   justify-content: center;
+   text-align: center;
+   font-weight: bolder;
+}
+#header li:hover{
+    color: blue;
+}
+#line{
+    border: black 1px solid;
+    width: 1150px;
+    margin: -15px 95px;
+}
+#submenu{
+    display: flex;
+    flex-direction: column;
+    margin: -45px 0px;
+    margin-left: 50px;
+    border-right: 1px solid black;
+    height: 800px;
+    font-size: 30px;
+    width: 180px;
+    font-size: 20px;
+    text-align:right;
+    font-weight: bold;
+}
+#submenu li{
+    border-top:1px black solid;
+    border-width: 1px;
+    padding-top: 4px;
+    padding-bottom: 11px;
+    height: 30px;
+}
+#submenu p{
+    padding-right: 70px;
+}
+#submenu :first-child{
+    border: none;
+    margin-bottom: 100px;
+    margin-top: 5px;
+}
+#container{
+    display: flex;
+}
+.image{
+    max-width: 100px;
+    max-height: 300px;
+}
+/* #images p{
+    margin-top: 30px;
+    text-align: left;
+    line-height: -5px;
+} */
+.product{
+    text-align: left;
+    line-height: 5px;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+.imgcontainer{
+    margin-left: 30px;
+    margin-top:  50px;
+    display: grid;
+    grid-template-columns: 180px 180px 180px 180px;
+    height: 700px;
+    column-gap: 50px;
+}
+.search{
+    margin-top: 35px;
+    margin-left: 750px;
+}
+.subproduct{
+    display: none;
+}
+
+
+
+
+  
+
+
+
+
+
